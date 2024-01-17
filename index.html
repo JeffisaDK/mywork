@@ -9,61 +9,71 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="menu1" id="portfoliobtn" onclick="showportfolio()">Portfolio</div>
-        <div class="logo">JEFFISA DK</div>
-        <div class="menu2" id="aboutbtn" onclick="showabout()">About</div>
+        <div class="container">
+            <div class="menu1" id="portfoliobtn" onclick="showportfolio()">Portfolio</div>
+            <div class="menu2" id="aboutbtn" onclick="showabout()">About</div>
+        </div>
     </div>
     <div class="main-content" id="portfolio">
         <section class="header">
-            <div class="intro">Hi, I'm Jeffisa DK.</br></br>I am an aspiring product designer who wants to bring a great user experience by solving user's problems through active listening.</div>
+            <div class="header-container">
+                <h1>Jeffisa is an aspiring product designer who wants to bring a great experience.</h1>
+                <p>View the work below.</p>
+            </div>
         </section> 
         <section class="box">
-            <div class="card">
-                <img src="./picture/interface/Attraction.jpg" alt="Attraction page" class="image">
+            <div class="card" onclick="showcontent1()">
+                <img src="./picture/card/Campaign.jpg" alt="Payday promotion" class="image">
                 <div class="overlay">
-                    <div class="hovertext">Website template creation</div>
+                    <div class="hovertext">Campaign page template creation</br></br>
+                        <span style="font-size: 14px;color:#F1E3D3;">UI Developer</span>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="./picture/interface/Campaign.jpg" alt="Campaign page" class="image">
+            <div class="card" onclick="showcontent2()">
+                <img src="./picture/card/Attraction.jpg" alt="Attraction" class="image">
                 <div class="overlay">
-                    <div class="hovertext">Website template creation</div>
+                    <div class="hovertext">Attraction page creation</br></br>
+                        <span style="font-size: 14px;color:#F1E3D3;">UI Developer</span>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="./picture/interface/Newsletter.jpg" alt="Newsletter" class="image">
+            <div class="card" onclick="showcontent3()">
+                <img src="./picture/card/Newsletter.jpg" alt="Newsletter" class="image">
                 <div class="overlay">
-                    <div class="hovertext">Newsletter template creation</div>
+                    <div class="hovertext">Newsletter template creation</br></br>
+                        <span style="font-size: 14px;color:#F1E3D3;">UI Developer</span>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="./picture/interface/Information.jpg" alt="Information page" class="image">
+            <div class="card" onclick="showcontent4()">
+                <img src="./picture/card/Information.jpg" alt="DISH" class="image">
                 <div class="overlay">
-                    <div class="hovertext">Website creation</div>
+                    <div class="hovertext">Website creation</br></br>
+                        <span style="font-size: 14px;color:#F1E3D3;">DesignOps</span>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="./picture/jag/post.jpg" alt="Social media post" class="image">
+            <div class="card" onclick="showcontent5()">
+                <img src="./picture/card/library.png" alt="SDGN Library management system" class="image">
                 <div class="overlay">
-                    <div class="hovertext">Social media post</div>
+                    <div class="hovertext">Design Library management system</br></br>
+                        <span style="font-size: 14px;color:#F1E3D3;">DesignOps</span>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="./picture/jag/branding.jpg" alt="Branding" class="image">
+            <div class="card" onclick="showcontent6()">
+                <img src="./picture/card/post.jpg" alt="Social media post" class="image">
                 <div class="overlay">
-                    <div class="hovertext">Branding</div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./picture/jag/packaging.jpg" alt="Packaging" class="image">
-                <div class="overlay">
-                    <div class="hovertext">Packaging</div>
+                    <div class="hovertext">Social media post</br></br>
+                        <span style="font-size: 14px;color:#F1E3D3;">Self-employed</span>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
     <div class="about-content" id="about">
-        <img src="./picture/Profile.jpg" class="profile-pic">
+        <img src="./picture/Profile.jpg" alt="Profile picture" class="profile-pic">
         <h1>&#128075; Jeffisa here :)</h1>
         <p>
             I was a Structure Engineer for a year after I graduated from ITB as a B.Sc of Ocean Enginnering at 2012 who interested in product design.
@@ -71,9 +81,636 @@
             During my final script, I need to develop a website. The challenge here was understanding the programming language and design flow including the interface by myself.
             The result was still amazed me because the design worked well for a heavy content such as number submission & calculation algorithm.
             At that time, I knew that I want to learn more about product design.</br></br>
-            Interested? Let's connect!</br>
-            <a href="https://www.linkedin.com/in/jeffisa-delaosia-k-0b589a56/">https://www.linkedin.com/in/jeffisa-delaosia-k</a>
+            Interested? Let's connect!</br></br>
+            <span>
+                <a href="https://www.linkedin.com/in/jeffisa-delaosia-k-0b589a56/" target="_blank"><img src="./picture/linkedin.png" alt="Linkedin" style="width: 100%; max-width: 24px;"></a>
+                <a href="https://wa.me/6593984980" target="_blank"><img src="./picture/whatsapp.png" alt="Whatsapp" style="width: 100%; max-width: 24px;"></a>
+            </span>
         </p>
+    </div>
+    <!-- Content1 - Payday promotion page -->
+    <div class="content1" id="content1">
+        <img src="./picture/content1.png" alt="Payday promotion" class="img-header">
+        <section>
+            <div class="content-container">
+                <div class="row">
+                    <h2 style="color: #34623F;">Payday promotion compilation</h2>
+                    <h3>
+                        The marketing team at Traveloka Indonesia took the initiative to consolidate all promotion pages for Traveloka products into a unified main interface. This effort aimed to help users in easily locating relevant promotions during monthly payday events and minimizing scroll time within the promotion menu.</br></br>
+                        As sole web designer & developer, I collaborated closely with the marketing project lead to deliberate on the layout.
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="line-height: 2;">
+                        <span style="font-weight: 700;">My role</span>
+                        </br>
+                        <span>
+                            UI/UX designer</br>
+                            Website developer</br>
+                            Design QA
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Context
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            To provide the best experience for users during the payday period, Traveloka Indonesia offers promotions across 6 products. These promotions appear as cards under the promotion menu, featuring a mix of both related and unrelated payday promotions. To prevent an overwhelming number of cards on the promotion page, the marketing team aims to consolidate all related payday promotions into a single card. This approach ensures that all promotion pages related to payday are seamlessly combined into one entrance under the promotion menu.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Problem
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            The existing recurring template landing page fails to meet the requirements, particularly with regard to accommodating promotions from 6 products. Additionally, uncertainties appear regarding the number of promotions that will be active during the payday period. Adding complexity, the promotions will cover both domestic and international travel.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Goal
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            Deliver a main entry page featuring thumbnails for promotions from each product (totaling 6 products at that time) consolidated on a single page.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Concepting
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        This project has several requirements to be met. Firstly, each Traveloka product will offer multiple promotions. Secondly, these promotions will encompass both domestic and international travel. 
+                        </br></br>
+                        To address this needs, the initial consideration is to create a structured section, resembling a table, with each product in Y-axis and accommodate promotions for both domestic and international travel in X-axis.
+                    </div>    
+                </div>
+                <img src="./picture/c1 design process.png" alt="Iteration process" class="v-space" style="width: 100%;">
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap" style="justify-content: space-between;">
+                    <div>
+                        <div class="title">
+                            Preview
+                        </div>
+                    </div> 
+                    <img src="./picture/payday.png" alt="Payday promotion" class="shadow" style="width: 100%; max-width: 380px;">
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Learnings
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        The initial design faced a setback as users mistakenly clicked on the non-clickable product box on the left, disrupted the intended flow. Consequently, users exited the page, leading to a drop in promotion sales. 
+                        </br></br>
+                        This served as a valuable lesson, prompting me to recover with an iteration design for the subsequent payday promotion. The revamped design proved highly successful, remaining in use until the conclusion of the promotion payday plan.
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Content2 - Attraction page -->
+    <div class="content2" id="content2">
+        <img src="./picture/content1.png" alt="Attraction" class="img-header">
+        <section>
+            <div class="content-container">
+                <div class="row">
+                    <h2 style="color: #34623F;">Attraction page for new users</h2>
+                    <h3>
+                        Two projects are centered around creating attraction pages for new users. The Traveloka Malaysia design team requires a campaign page with a "travel easy" concept to enhance user awareness of the company's product.
+                        Subsequently, following the successful launch in Malaysia, the Traveloka Philippines design team eager to implement a similar idea with a different layout.</br></br>
+                        As a solo web designer & developer, I worked closely with the design project lead from both countries and give some suggestion on the layout as well as several illustrations with the graphic designer.
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="line-height: 2;">
+                        <span style="font-weight: 700;">My role</span>
+                        </br>
+                        <span>
+                            UI/UX designer</br>
+                            Website developer</br>
+                            Design QA
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Context
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            In an effort to attract new users, Traveloka Malaysia is developing engaging and narrative-driven series. Each series is designed to highlight a specific user selling point, making the platform more appealing and relatable.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Problem
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            The content management system has only a template landing page with a standard layout for recurring campaign landing page.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Goal
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            The primary goal was to design a seamless and engaging page for new users, allowing them to perceive the value that Traveloka can offer to the customers. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Concepting
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        While the original layout idea was designed by the Traveloka Malaysia design team, I contributed to achieving a seamless design by sketching a low-fi wireframe and reducing the page height. This approach aimed to bring a unique and different feel compared to the standard campaign page, with the benefit of decreasing the scroll time for user to access content quickly.
+                        </br></br>
+                        As for attractive view, I recommended incorporating different shape for the header image, a full background image using a light illustration, and a one-line illustration before the footer section.
+                    </div>    
+                </div>
+                <img src="./picture/c2 design process.png" alt="Iteration process" class="v-space" style="width: 100%;">
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap" style="justify-content: space-between;">
+                    <div>
+                        <div class="title">
+                            Preview
+                        </div>
+                        <div class="v-space">
+                            <div class="paragraph">
+                                See the full page <a href="https://www.traveloka.com/en-my/traveleasy">here</a>.
+                            </div>    
+                        </div>
+                    </div> 
+                    <img src="./picture/attraction.png" alt="Attraction" class="shadow" style="width: 100%; max-width: 380px;">
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Next project
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        Following the successful launch of the page in Malaysia, the Traveloka Philippines design team expressed interest in adopting a similar concept with slight design modifications (see the second image on the header image). I played a crucial role as a website developer in contributing to that project.
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Content3 - Newsletter -->
+    <div class="content3" id="content3">
+        <img src="./picture/content3.png" alt="Newsletter" class="img-header">
+        <section>
+            <div class="content-container">
+                <div class="row">
+                    <h2 style="color: #34623F;">Content Newsletter</h2>
+                    <h3>
+                        A content newsletter initiative was introduced at Traveloka Indonesia to enhance awareness of Traveloka products. Following its success in Indonesia, Traveloka Malaysia has expressed its intention to implement a similar approach.
+                        </br></br>
+                        As a UI Developer, I worked closely with the design lead to organize the layout and provide insights on the conceptualization of the concept newsletter.
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="line-height: 2;">
+                        <span style="font-weight: 700;">My role</span>
+                        </br>
+                        <span>
+                            Newsletter developer</br>
+                            Design QA
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Context
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            The Traveloka Newsletter, which previously focused solely on promotions, now has the opportunity to transform into a Content newsletter, include a wealth of information about new products introduced by Traveloka.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Problem
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            Crafting a newsletter component within the content management system poses challenges. In order to meet the goals, we have to utilize an existing component and modify its purpose to align with our requirements.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Goal
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            Increase Traveloka newsletter subscribers in order to expand awareness about the introduction of new products.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Concepting
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        The Content newsletter aims to feature more informative text and captivating images to engage new subscribers, with the goal of directing users to products related to the content. 
+                        </br></br>
+                        Considering the constraints of limited resources for the component, I provided guidance to the graphic designer, urging the creation of compelling images and assistance in structuring the flow of information.
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap" style="justify-content: space-between;">
+                    <div class="title">
+                        Preview
+                    </div>
+                    <img src="./picture/newsletter.png" alt="Newsletter" class="shadow" style="width: 100%; max-width: 380px;">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Content4 - DISH -->
+    <div class="content4" id="content4">
+        <img src="./picture/content4.png" alt="DISH" class="img-header">
+        <section>
+            <div class="content-container">
+                <div class="row">
+                    <h2 style="color: #34623F;">Design Information and Self-service Hub &#40;DISH&#41;</h2>
+                    <h3>
+                        The Traveloka design team faced challenges in accessing essential data, as the absence of a centralized platform led to prolonged search times.
+                        </br></br>
+                        As a project driver and design operations for design team, I collaborated with my team to conduct surveys and interviews with all designers (approximately 200 in total). The result was the development of a unified platform named DISH, serving as a one-stop solution that consolidates all information required by designers.
+                        </br></br>
+                        As a webmaster, I closely collaborated with the VP of the Design team to compile essential data, providing a structured framework for designers to follow within the company.
+                        </br></br>
+                        This project significantly reduced search times for designers and gained recognition from other teams as well.
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="line-height: 2;">
+                        <span style="font-weight: 700;">My role</span>
+                        </br>
+                        <span>
+                            Project Driver</br>
+                            UI/UX designer</br>
+                            Website developer</br>
+                            Webmaster
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Context
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            At Traveloka Indonesia, each product or function has its own dedicated design team. The Design Ops team operates independently and is tasked with overseeing and fulfilling all the designers' requirements to enhance their efficiency. This project aims to serve as a guidebook, facilitating quick access to necessary information and ensuring alignment in design across different functions.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Problem
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            As a tech company, Traveloka Indonesia utilizes a cloud-service to store all information. With a lot of data to access, individuals often resort to saving links, such as in browser bookmarks. However, this process can be troublesome, especially considering the varied approaches each individual may take in storing the required information.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Goal
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            Launched a centralized page to consolidate all essential information, ensuring design alignment across diverse functions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Concepting
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        The survey revealed that designers require access not only to design-related data but also to non-design-related information, such as a general details about Traveloka.
+                        </br></br>
+                        To ensure seamless transition and low learning curve, I explored into Google apps and opted for Google Sites to establish DISH. Personally designing the website architecture, I engaged in a trial-and-error process to determine the most effective components and layout offered by Google Sites.
+                        </br></br>
+                        Furthermore, all critical information is documented in a cloud-based platform, making it more convenient to use a list concept for compiling links through hyperlinked text within multiple categories.
+                    </div>    
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap" style="justify-content: space-between;">
+                    <div class="title">
+                        Preview
+                    </div>
+                    <img src="./picture/DISH.png" alt="DISH" class="shadow" style="width: 100%; max-width: 380px;">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Content5 - DSGN Library management system -->
+    <div class="content5" id="content5">
+        <img src="./picture/content5.png"  alt="DSGN Library management system" class="img-header">
+        <section>
+            <div class="content-container">
+                <div class="row">
+                    <h2 style="color: #34623F;">DSGN Library Management System</h2>
+                    <h3>
+                        The designers at Traveloka Indonesia have a physical book lending system. Unfortunately, due to some neglect in management, several books have gone missing or have been damaged. This issue is impacting the design team's budget, as replacements must be provided for any missing books.
+                        </br></br>
+                        To preserve the physical book collection, I initiated a project aimed at retrieving and maintaining both existing and new books. Collaborating closely with the VP of Design, we secured a dedicated space to house all the books, creating a functional and organized design library.
+                    </h3>
+                </div>
+                <div class="row">
+                    <p style="line-height: 2;">
+                        <span style="font-weight: 700;">My role</span>
+                        </br>
+                        <span>
+                            Project Manager</br>
+                            System Architecture</br>
+                            Developer
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Context
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            Many designers are keen on self-improvement through reading and applying insights to their work, prompting the establishment of the existing lending system. This system employs a self-updating status. However, there is a lack of clear regulations for designers to follow and the person in charge is not clearly defined.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Problem
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            The previous lending system utilized a tool with limited accessibility. This self-updating system lacked a structured return schedule, resulting in untracked physical books and fostering irresponsible behavior.
+                        </div>
+                    </div>
+                </div>
+                <div class="nowrap v-space">
+                    <div class="fixed-column">
+                        <div class="title">
+                            Goal
+                        </div>
+                    </div>
+                    <div class="h-space">
+                        <div class="paragraph">
+                            Developed a new library system with an updated lending flow designed to track the books and automatically remind the borrower to return them on time.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Concepting
+                </div>
+                <div class="v-space">
+                    <div class="paragraph">
+                        To enhance accessibility, the platform was migrated to the company's general tools, specifically Google Workspace. This change ensures that all individuals within Traveloka can access the link without restrictions.
+                        </br></br>
+                        In terms of the system flow, I synchronized Google Spreadsheet, Google Calendar, and Google Form to establish an automatic system. Google Spreadsheet functions as an online library or book database, Google Form serves as the platform to submit requests to borrow available books, and Google Calendar acts as a reminder in the borrower’s calendar, indicating when the book should be returned.
+                        </br></br>
+                        The initial step to borrow a book involves submitting data through Google Form. Subsequently, users are not required to take any action in the book database, as the information from Google Form is automatically transferred to Google Spreadsheet, updating the book status in the database. Along with the process, the modified status in the book database then triggers an auto-reminder on the borrower's calendar.
+                    </div>
+                </div>
+                <img src="./picture/c5 design process.png" alt="Iteration process" class="v-space" style="width: 100%;">    
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="v-sapce" style="justify-content: space-between;">
+                    <div class="title">
+                        Preview
+                    </div>
+                    <img src="./picture/library.png" alt="DSGN Library management system" class="shadow" style="width: 100%; padding-top: 30px;">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Content6 - Social Media post -->
+    <div class="content6" id="content6">
+        <section style="padding-top: 56px;">
+            <div class="content-container">
+                <div class="row">
+                    <h2 style="color: #34623F;">Social Media post</h2>
+                    <h3>
+                        I explored the business world with my business partner by establishing a service-oriented business as a side job. I served as a content creator, brand designer, graphic designer, and photographer. 
+                        </br></br>
+                        As a content creator, I crafted design concept, taglines, narratives, and captions for each post. In my capacity as a brand designer, I created logos, product labels, and product amenities. Additionally, as a graphic designer and a photographer, I developed cohesive designs for static image and moving image for story by combining photos with graphic elements.
+                        </br></br>
+                        This job was active during festive occasion like Christmas, Chinese New Year, Valentine’s Day, and Hari Raya. However, the business has closed permanently.
+                        </br></br>
+                        Full content can be accessed <a href="https://www.instagram.com/thegiftbyjag/" target="_blank">here</a>.
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Product catalogue
+                </div>
+                <img src="./picture/c6-1.png" alt="DSGN Library management system" style="width: 100%; padding-top: 30px;">
+            </div>
+            </section>
+        <div class="divider">
+            <hr class="solid">
+        </div>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Christmas 2020
+                </div>
+                <img src="./picture/c6-2.png" alt="DSGN Library management system" style="width: 100%; padding-top: 30px;">
+            </div>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Valentine's Day 2020
+                </div>
+                <img src="./picture/c6-3.png" alt="DSGN Library management system" style="width: 100%; padding-top: 30px;">
+            </div>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Chinese New Year 2020
+                </div>
+                <img src="./picture/c6-4.png" alt="DSGN Library management system" style="width: 100%; padding-top: 30px;">
+            </div>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Hari Raya 2020
+                </div>
+                <img src="./picture/c6-5.png" alt="DSGN Library management system" style="width: 100%; padding-top: 30px;">
+            </div>
+        </section>
+        <section>
+            <div class="content-container">
+                <div class="title">
+                    Christmas 2021
+                </div>
+                <img src="./picture/c6-6.png" alt="DSGN Library management system" style="width: 100%; padding-top: 30px;">
+            </div>
+        </section>
     </div>
     <div class="footer">
         <span>&#169;</span>2024 Jeffisa DK. All Rights Reserved.
