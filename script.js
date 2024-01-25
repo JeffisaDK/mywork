@@ -143,7 +143,7 @@ function showcontent5 () {
     
     let card5 = document.getElementById("content5");
 
-    card1.style.display = "block";
+    card5.style.display = "block";
     portoscreen.style.display = "none";
     aboutscreen.style.display = "none";
 
@@ -162,7 +162,7 @@ function showcontent6 () {
     
     let card6 = document.getElementById("content6");
 
-    card1.style.display = "block";
+    card6.style.display = "block";
     portoscreen.style.display = "none";
     aboutscreen.style.display = "none";
 
