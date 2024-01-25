@@ -147,7 +147,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding: 0 10% 48px;
-    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1640px;
+    justify-content: center;
 }
 
 .shadow {
