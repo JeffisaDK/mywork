@@ -64,8 +64,15 @@ body {
 }
 
 /* MOBILE FONT STYLE */
-@media screen and (max-width: 1044px) {
-    /* Title */
+@media screen and (max-width: 900px) {
+    .fs-intro {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    /* General Title */
     .fs-tl {
         font-family: "Times New Roman", Times, serif;
         font-size: 18px;
@@ -84,7 +91,7 @@ body {
         line-height: 1.5;
     }
 
-    /* Body */
+    /* General Body */
     .fs-bl {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 14px;
@@ -110,7 +117,7 @@ body {
     font-size: 16px;
 }
 
-@media screen and (max-width: 1044px) {
+@media screen and (max-width: 900px) {
     .fs-footer-bs {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 11px;
@@ -193,9 +200,8 @@ a:active {
 }
 
 /*----------------------------*/
-/* HOMEPAGE & ABOUT SECTION */
-.homepage-cont {
-    padding: 0 64px;
+/* COLOR SECTION */
+.homepage {
     background-color: #FFFBF8;
 }
 
@@ -274,6 +280,13 @@ a:active {
 
 /*----------------------------*/
 /* HOMEPAGE */
+.homepage-cont {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 64px;
+}
+
 .gallery {
     text-align: center;   
 }
@@ -320,8 +333,87 @@ hr.edit {
     margin: 0;
 }
 
+@media screen and (max-width: 900px) {
+    .homepage-cont {
+        padding: 0 24px;
+    }
+
+    .img-home {
+        width: 100%;
+        max-width: 180px;
+        padding-top: 34px;
+    }
+
+    .intro {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .intro-body {
+        padding-bottom: 44px;
+    }
+
+    .gallery-cont-box {
+        width: 100%;
+        max-width: 274px;
+        margin-bottom: 24px;
+    }
+
+    .gallery-cont-menu {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .gallery-cont-menucont {
+        font-size: 12px;
+        padding: 18px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .homepage-cont {
+        padding: 0 24px;
+    }
+
+    .img-home {
+        width: 100%;
+        max-width: 240px;
+        padding-top: 34px;
+    }
+
+    .intro {
+        margin: 0 auto;
+    }
+
+    .fs-intro {
+        font-size: 24px;
+    }
+
+    .gallery-cont-box {
+        width: 100%;
+        max-width: 274px;
+        margin-bottom: 24px;
+    }
+
+    .gallery-cont-menu {
+        width: 100%;
+        padding: 14px 0;
+    }
+
+    .gallery-cont-menucont {
+        font-size: 12px;
+        padding: 18px 0;
+    }
+}
+
 /*----------------------------*/
 /* ABOUT */
+.aboutme {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .about-cont {
     background-color: #C0BBB8;
     padding: 0 64px;
@@ -366,6 +458,55 @@ hr.edit {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 900px) {
+    .about-cont {
+        padding: 0 24px;
+    }
+    
+    .img-about {
+        width: 100%;
+        max-width: 180px;
+        padding-top: 84px;
+        padding-bottom: 24px;
+    }
+
+    .t-separator {
+        font-size: 16px;
+    }
+
+    .aboutme-cont {
+        text-align: center;
+    }
+
+    .aboutme-contactcont {
+        padding-top: 14px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-cont {
+        padding: 0 24px;
+    }
+
+    .aboutme {
+        padding-top: 14%;
+    }
+    
+    .img-about {
+        width: 100%;
+        max-width: 240px;
+    }
+
+    .t-separator {
+        font-size: 20px;
+    }
+
+    .aboutme-contactcont {
+        padding-top: 14px;
+    }
+}
+
 /*----------------------------*/
 /* CONTENT */
 .cont-intro {
@@ -380,15 +521,25 @@ hr.edit {
 }
 
 .cont-padding {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0 146px;
 }
 
 .cont-img {
     padding: 74px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cont-center {
+    text-align: center;
 }
 
 .cont-section {
     padding-top: 74px;
+    text-align: center;
 }
 
 .cont-column {
@@ -421,6 +572,9 @@ hr.edit {
 
 .dark-bg-content {
     background-color: #C0BBB8;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .light-bg-content {
