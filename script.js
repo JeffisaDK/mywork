@@ -5,7 +5,7 @@ function showabout() {
     let wdd2 = document.getElementById("wdd2");
     let wdd3 = document.getElementById("wdd3");
     let do1 = document.getElementById("do1");
-    let do2 = document.getElementById("do1");
+    let do2 = document.getElementById("do2");
 
     let homebtn = document.getElementById("homebtn");
     let aboutbtn = document.getElementById("aboutbtn");
