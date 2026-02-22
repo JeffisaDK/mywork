@@ -282,6 +282,15 @@ a:active {
     padding: 0 64px;
 }
 
+.pic {
+    display: block;
+    width: 375px;
+}
+
+.img-home {
+    width: 100%;
+}
+
 .gallery {
     text-align: center;   
 }
