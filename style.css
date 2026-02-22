@@ -282,13 +282,9 @@ a:active {
     padding: 0 64px;
 }
 
-.pic {
-    display: block;
-    width: 375px;
-}
-
-.img-home {
-    width: 100%;
+.intro-body {
+    text-align: center;
+    padding: 12% 0;
 }
 
 .gallery {
@@ -354,7 +350,8 @@ hr.edit {
     }
 
     .intro-body {
-        padding-bottom: 44px;
+        text-align: centre;
+        padding: 16% 0;
     }
 
     .gallery-cont-box {
@@ -387,6 +384,11 @@ hr.edit {
 
     .intro {
         margin: 0 auto;
+    }
+
+    .intro-body {
+        text-align: centre;
+        padding: 30% 0;
     }
 
     .fs-intro {
