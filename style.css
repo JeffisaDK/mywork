@@ -37,7 +37,7 @@ h3 { font-size: 1.1rem; }
 .work-card h3 { margin-bottom: 8px; font-size: 1.2rem; }
 .work-card p { color: #f9d9b1; }
 .work-card:hover h3 { color: var(--orange); }
-.case-studies { display: grid; gap: 130px; }
+.case-studies { display: grid; gap: 130px; padding-bottom: 130px; }
 .case-study { scroll-margin-top: 100px; padding-top: 40px; border-top: 1px solid var(--line); }
 .case-study.featured-case { border-top: 8px solid var(--orange); }
 .featured-case .case-visual { background: var(--rust); }
@@ -57,7 +57,7 @@ dd { margin: 0; }
 .case-section p { color: #f9d9b1; }
 .case-contact { display: inline-block; margin-top: 34px; color: var(--link); font-weight: 700; }
 .independent-work, .about-section, .contact-section { padding: 130px 0; border-top: 1px solid var(--line); }
-.case-studies + .independent-work { border-top: 0; }
+.case-studies + .independent-work { border-top: 1px solid var(--line); }
 .independent-links { display: flex; flex-wrap: wrap; gap: 50px; font-size: clamp(1.2rem, 2.5vw, 2rem); font-weight: 700; }
 .about-section { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; }
 .about-copy { color: #f9d9b1; font-size: 1.1rem; }
