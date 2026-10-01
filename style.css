@@ -232,6 +232,24 @@ h3 {
 	border-bottom: 1px solid var(--line);
 }
 
+.work-card-featured {
+	position: relative;
+	border-bottom: 3px solid var(--orange);
+}
+
+.work-card-featured::before {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	z-index: 1;
+	padding: 5px 8px;
+	background: var(--orange);
+	color: var(--navy);
+	content: 'FEATURED';
+	font: 500 10px 'DM Mono', monospace;
+	letter-spacing: .06em;
+}
+
 .work-card img {
 	width: 100%;
 	aspect-ratio: 1.35;
